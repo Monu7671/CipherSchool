@@ -1,0 +1,21 @@
+.main_container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.lcomponents {
+  width: 57px;
+  height: 100vh;
+  padding: 0 5px;
+  z-index: 998;
+  overflow: hidden;
+  position: fixed;
+  transition: 0.2s ease, background-color 0s ease;
+  background-color: #fff;
+  color: black;
+}
+.rcomponents {
+  width: 100%;
+  padding-left: 70px;
+}

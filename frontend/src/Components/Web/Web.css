@@ -1,0 +1,87 @@
+.mp-web-container {
+  padding: 5px 40px;
+  background-color: #f3f4fa;
+}
+.web-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+.web-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mp-left-header {
+  color: #2c3d4f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.mp-right-header {
+  align-items: center;
+  background: #f3912e;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  transition: 0.15s ease;
+  width: 80px;
+}
+
+.mp-links-box {
+  display: grid;
+  gap: 0px 30px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.mp-link {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.mp-title {
+  color: #000;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+}
+
+.mp-input-link {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 4px;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+.mp-link-icon {
+  padding-right: 5px;
+  display: flex;
+}
+.mp-link-text {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 550;
+  line-height: 1.5;
+  width: 100%;
+}

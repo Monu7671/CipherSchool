@@ -1,0 +1,46 @@
+.professional_container {
+  padding: 5px 40px;
+  background-color: #F3F4FA;
+}
+.mp-professional-box {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.mp-top-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mp-prof-info-box {
+  --max-size: 400px;
+  display: grid;
+  gap: 0px 30px;
+  grid-template-columns: repeat(auto-fit, minmax(var(--max-size), 1fr));
+  height: auto;
+  width: 100%;
+}
+
+.mp-link {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.mp-title {
+  font-size: 15px;
+}
+
+.mp-input-link {
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  margin-top: 4px;
+  padding: 0.5rem 1rem;
+}
